@@ -1,0 +1,23 @@
+CEP Cost Index (default): 
+
+Capital cost section
+Econ software --> Default:
+
+Fixed capital investment (FCI)
+FCI data "User defined" and "LCC default"
+
+Number of periods --> Plant life (year)
+
+By Product Credit --> Product Credit
+
+//LCC equation is without salvage value and product credit
+//LCC revenue = Salvage value + Product credit - LCC
+
+LCC = Capital cost + Operating Cost + Maintenance cost + Feedstock cost
+LCC revenue = Salvage value + Product credit - LCC
+
+Remove Econ Evaluate button
+
+
+2 May 
+Cost of Component --> Unit Price
