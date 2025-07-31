@@ -287,13 +287,13 @@ namespace LCC
             //-------------------------------------
             //Define Stream
             //Input Stream
-            txtFileName = "\\DefineInputSteam.txt";
+            txtFileName = "\\DefineInputStream.txt";
             LCC_locationPath = filePath + txtFileName;
             Impact_LocationPath = ImpactSavefilePath + txtFileName;
             conSP.SaveDataTable(dgvStream_OpC, LCC_locationPath);
             conSP.copyfile(LCC_locationPath, Impact_LocationPath);
             //Output Stream
-            txtFileName = "\\DefineOutputSteam.txt";
+            txtFileName = "\\DefineOutputStream.txt";
             LCC_locationPath = filePath + txtFileName;
             Impact_LocationPath = ImpactSavefilePath + txtFileName;
             conSP.SaveDataTable(dgvStreamOutput_OpC, LCC_locationPath);
